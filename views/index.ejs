@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Acidlabs | Debugger Workshop</title>
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css"></link>
+  </head>
   <body>
+    <div class="wrapper">
+      <div class="box"></div>
+      <button class="button">Animate</button>
+    </div>
   <% if (script) { %>
-    <script src="/assets/<%=script%>.js"></script>
+    <script src="/assets/script.js"></script>
   <% } %>
+    <script>
+      const box = document.querySelector('.box');
+      const button = document.querySelector('.button');
+
+      button.onclick = () => {
+        if(box.classList.contains('animate')){
+          box.classList.remove('animate')
+        }else{
+          box.classList.add('animate')
+        }
+      }
+    </script>
   </body>
 </html>

@@ -1,0 +1,21 @@
+- presentacion del codigo
+
+# HTML
+  - $0 y $()
+  - break on attribute modification
+  - force state
+  - color picker, shadow, animation.
+  - changes & animations tab
+  - event listeners
+
+# Network
+  - overview
+  - copy as cURL
+
+# Source
+  - client breakpoints + conditionals
+  - break on exception
+  - watch
+  - callstack
+  - local function, time + timeEnd, debugger breakpoints
+  - server beakpoints (--inspect, --inspect-brk)

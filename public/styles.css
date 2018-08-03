@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  background: red;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background: green;
+  border: 1px solid black;
+  transition: transform 3s;
+  transform: translateX(-500px);
+  box-shadow: 0 0 20px 5px black;
+}
+
+.box:hover{
+  background: blue;
+}
+
+.box.animate{
+  transform: translateX(500px);
+}
+
+.button{
+  width: 250px;
+  height: 100px;
+}
