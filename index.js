@@ -14,7 +14,7 @@ app.get('/client', (req, res) => {
 });
 app.get('/server', (req, res) => {
   require('./public/script.js');
-  res.send('Waiting for breakpoint...');
+  res.send('All code was executed in the server');
 });
 
 app.listen(3000, () => {

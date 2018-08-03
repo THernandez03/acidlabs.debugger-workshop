@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: red;
+  background: #f3f3f3;
 }
 
 .wrapper{
@@ -14,11 +14,12 @@ body{
 .box{
   width: 100px;
   height: 100px;
-  background: green;
-  border: 1px solid black;
+  background: #33bb22;
+  border: 2px solid white;
   transition: transform 3s;
   transform: translateX(-500px);
-  box-shadow: 0 0 20px 5px black;
+  box-shadow: 5px 5px 35px rgba(0,0,0,0.3);
+  border-radius: 10px;
 }
 
 .box:hover{
@@ -32,4 +33,20 @@ body{
 .button{
   width: 250px;
   height: 100px;
+  border: 0;
+  background:#ff0000;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+}
+
+.button:hover{
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
+  background:#ff3333;
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: 0
 }
