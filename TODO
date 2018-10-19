@@ -1,21 +1,26 @@
 - presentacion del codigo
 
 # HTML
-  - $0 y $()
-  - break on attribute modification
+  - $0 y $(), $$(), $_
+  - live expressions
+  - copy
+  - show in viewport
+  - break on: attribute modification, subtree modification, node removal
   - force state
-  - color picker, shadow, animation.
+  - color picker, contrast ratio, shadow, subic bezier.
+  - styles, computed, event listeners (maybe layers panel)
+  - eager evaluation
   - changes & animations tab
-  - event listeners
 
 # Network
   - overview
-  - copy as cURL
+  - filmstrip
+  - copy as cURL, copy as fetch
 
 # Source
   - client breakpoints + conditionals
   - break on exception
   - watch
   - callstack
-  - local function, time + timeEnd, debugger breakpoints
+  - debug function, local function, time + timeEnd, debugger breakpoints
   - server beakpoints (--inspect, --inspect-brk)
