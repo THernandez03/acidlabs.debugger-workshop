@@ -19,13 +19,13 @@
       const box = document.querySelector('.box');
       const button = document.querySelector('.button');
 
-      button.onclick = () => {
+      button.addEventListener('click', () => {
         if(box.classList.contains('animate')){
           box.classList.remove('animate')
         }else{
           box.classList.add('animate')
         }
-      }
+      })
     </script>
   </body>
 </html>
