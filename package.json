@@ -18,7 +18,7 @@
   "homepage": "https://github.com/THernandez03/acidlabs.debugger-workshop#readme",
   "devDependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "nodemon": "^1.18.3"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4"
   }
 }
